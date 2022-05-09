@@ -12,7 +12,7 @@ enum class value(val valueser:Any) {
     QUEEN("QUEEN"),
     KING("KING"),
     ACE("ACE");
-  fun kolKar(){
+  fun kolCar(){
       val lol = listOf<Any>(valueser)
       println(lol)
   }
