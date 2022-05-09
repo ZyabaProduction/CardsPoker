@@ -1,4 +1,4 @@
-enum class cards(val cardsName: String, val opacity: Int? = 10) {
+enum class karta(val cardsName: String, val opacity: Int? = 10) {
 
     FR("Flash Rojal",10),
     SF ("Strit Flash", 9),
