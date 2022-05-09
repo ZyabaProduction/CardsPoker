@@ -11,6 +11,18 @@ fun main(args: Array<String>){
  var res = cardsSuits()
  res.deckС()
 
+
+val pawel = MainProvajder()
+ pawel.printInfo(combinations())
+ println(pawel.getConnection())
+
+}
+
+fun checkData(obj:MainProvajder){
+ if(obj is UserInfo){
+  obj.printInfo(combinations())
+ }
+
 }
 
 
