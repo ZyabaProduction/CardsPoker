@@ -1,4 +1,4 @@
-enum class suits(val suits:String) {
+enum class mast(val suits:String) {
     CHIRWA("CHIRWA"),
     KRESTA("KRESTA"),
     BUBA("BUBA"),
