@@ -3,25 +3,16 @@
 fun main(args: Array<String>){
  println()
  println("---Poker Combinations---")
- val kombo = combinations()
- kombo.cards()
+ val combination = ConditionsAndCombinations()
+ combination.SeniorityCombinations()
  println()
  println("---DECK OF CARDS----")
  println()
- var res = cardsSuits()
- res.deckС()
+ var result = CardsSuits()
+ result.listCardsSuits()
 
 
-val pawel = MainProvajder()
- pawel.printInfo(combinations())
- println(pawel.getConnection())
 
-}
-
-fun checkData(obj:MainProvajder){
- if(obj is UserInfo){
-  obj.printInfo(combinations())
- }
 
 }
 
